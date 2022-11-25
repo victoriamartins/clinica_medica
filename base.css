@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Montserrat','Trebuchet MS', 'Arial', sans-serif ;
+}
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+/* ------------------ menu lateral ------------------ */
+
+.menu {
+    width: 15%;
+    background-color: rgb(192, 214, 214);
+}
+.menu ul {
+    list-style-type: none;
+    margin-left: 10%;
+}
+.menu ul li {
+    margin-top: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 36, 36);
+}
+.menu ul li a:hover {
+    color: rgb(0, 100, 100);
+}
+
+/* ------------------ header ------------------ */
+
+.header {
+    background-color: rgb(0, 100, 100);
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header svg {
+    margin-left: 10px;
+}
+.header h1 {
+    font-size: 45px;
+    color: rgb(211, 228, 228);;
+    text-transform: uppercase;
+}
+
+/* ------------------ content ------------------ */
+
+.content {
+    background-color: white;
+    padding: 15px;
+}
+iframe {
+    margin:0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+table {
+    border: 1px solid rgb(0, 100, 100);
+    margin-top: 10px;
+    font-size: 14px;
+}
+table thead {
+    background-color: rgb(0, 100, 100);
+    color: white;
+    height: 30px;
+}
+table td {
+    padding: 6px;
+    padding-inline: 15px;
+}
+table tbody tr:nth-child(odd) {
+    background-color: rgb(192, 214, 214);
+}
+table tbody tr :nth-child(3) {
+    text-align: center;
+}
+div .telefone {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 100px 300px;
+    /*column-gap: 10px;*/
+    row-gap: 10px;
+}
+input:hover, textarea:hover {
+    background-color: rgb(238, 247, 247);
+}
+.btn {
+    display: flex;
+    justify-content: end;
+}
+.btn button {
+    width: 70px;
+}
+
+/* ------------------ footer ------------------ */
+
+.footer {
+    background-color: rgb(0, 36, 36);
+    color: rgb(192, 214, 214);
+    padding: 15px;   
+    min-height: 150px;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(57, 165, 165);
+}
+.footer p {
+    font-size: 16px;
+}
+
+.title_content {
+    font-size: 18px;
+    font-weight: 600;
+}
+article {
+    margin-bottom: 10px;
+}
+p {
+    margin-block: 5px;
+}
